@@ -1,0 +1,12 @@
+name: EdenorChatFilter
+version: '1.0.0'
+author: Totilak
+contributors: [WesOrangePower]
+main: ru.edenor.edenorChatFilter.EdenorChatFilter
+api-version: '1.21.7'
+folia-supported: true
+depend: [EdenorWarnings]
+permissions:
+  ecf.bypass:
+    description: "Игроки с этим правом могут писать любые слова"
+    default: op
